@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="../bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="../jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Stress Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Stress Test Survey</h1>
+      </div>
+      <form id="stress_test">
+        <div class="form-group">
+          <p class="question">Have you experienced any of these warning signs recently? Check all that apply.</p>
+          <input type="checkbox" name="warning-signs" value="apathy"> Apathy, lack of energy<br>
+          <input type="checkbox" name="warning-signs" value="on edge"> Feeling on edge<br>
+          <input type="checkbox" name="warning-signs" value="emotional"> Being More Emotional<br>
+          <input type="checkbox" name="warning-signs" value="drugs"> Using alcohol or drugs to relieve stress<br>
+          <input type="checkbox" name="warning-signs" value="change in eating habits"> A change in eating habits<br>
+          <input type="checkbox" name="warning-signs" value="sleeping a lot"> Sleeping more than usual or difficulty sleeping<br>
+        </div>
+        <div class="form-group">
+          <p class="question">Have you experience any of these health symptoms recently? Check all that apply.</p>
+          <input type="checkbox" name="health-signs" value="energy"> Low energy<br>
+          <input type="checkbox" name="health-signs" value="headaches"> Frequent headaches<br>
+          <input type="checkbox" name="health-signs" value="pains"> Aches, pains, and tense muscles<br>
+          <input type="checkbox" name="health-signs" value="colds"> Frequent colds and infections<br>
+          <input type="checkbox" name="health-signs" value="stomach problems"> Upset stomach<br>
+        </div>
+        <div class="form-group">
+          <p class="question">Have you used any of these methods to manage your stress recently? Check all that apply.</p>
+          <input type="checkbox" name="stress-management" value="no drugs"> Avoid caffeine, alcohol, and nicotine<br>
+          <input type="checkbox" name="stress-management" value="fitness"> Workout frequently<br>
+          <input type="checkbox" name="stress-management" value="meditation"> Meditation<br>
+          <input type="checkbox" name="stress-management" value="sleep"> Get more sleep<br>
+          <input type="checkbox" name="stress-management" value="therapy"> Speak with a therapist<br>
+          <input type="checkbox" name="stress-management" value="time-management"> Time Management<br>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>       
+      </form>
+      <div class="output">
+
+      </div>
+    </div>
+  </body>
+</html>
